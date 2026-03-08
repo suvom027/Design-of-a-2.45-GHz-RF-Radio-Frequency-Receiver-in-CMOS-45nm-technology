@@ -5,14 +5,14 @@ RF Receiver Front-End Design for ISM Band Wireless Communication
 </p>
 
 ---
-
+<p align="center">
 ## 👨‍💻 Authors
 
 - **Azad Hossain Saykat** – 021221017  
 - **Sazzad Hossen** – 021221026  
 - **Suvom Karmakar** – 021221027  
 - **Md. Tahman Hossain** – 021221099  
-
+</p>
 <p align="center">
 <img width="258" height="234" alt="Image" src="https://github.com/user-attachments/assets/ed3bcb05-66a4-4548-b233-5ff860243f1a" />>
 </p>
@@ -136,7 +136,9 @@ The BPF is placed directly after the antenna to select the desired RF channel wh
     </td>
   </tr>
 </table>
+
 ### BPF AC Analysis
+
 ## 3dB Point
 <img width="756" height="505" alt="Image" src="https://github.com/user-attachments/assets/ef5648af-bd6d-4004-b1ef-60cb94fb42c4" />
 </p>
@@ -145,6 +147,7 @@ The BPF is placed directly after the antenna to select the desired RF channel wh
 <p align="center">
 <img width="782" height="487" alt="Image" src="https://github.com/user-attachments/assets/8bdb91ca-39f7-4c71-b7af-10c44621e71a" />
 </p>
+
 ### Design Method
 
 The filter was designed using **gm/ID methodology**, enabling efficient transistor sizing while optimizing:
@@ -183,6 +186,7 @@ Cascode Common Source with **Inductive Source Degeneration**
 <p align="center">
 <img width="654" height="410" alt="Image" src="https://github.com/user-attachments/assets/c7aa153c-f076-4d46-a834-bc7428707bf3" />
 </p>
+
 ### AC Analysis
 Maximum Gain at 2.45GHz = 23.47"dB"
 <p align="center">
@@ -196,6 +200,7 @@ A_v=16.3 dB
 <p align="center">
 <img width="785" height="594" alt="Image" src="https://github.com/user-attachments/assets/94a345b2-31d6-443e-8ed0-f35d52fff2cd" />
 </p>
+
 ### S-Parameter Analysis
 S-parameters are studied to investigate the input and output reflections, return loss, and signal integrity of the system. The S-parameter plots for S11 (Input Reﬂection Coefﬁcient), S22 (Output Reﬂection Coefﬁcient), without losing general but fundamental observation, are below mentioned: S21 (Forward Transmission Gain), and S12 (Reverse Trans- mission Gain).
 
@@ -380,6 +385,7 @@ SNR_dB = P_signal-P_noise = -107.85"dB"-(-156.5"dB" ) ≈ 49"dB"
 </p>
 Linearity Range: Linearize to Extract the 1-dB Compression Point From 1μV to 1.3mV, and the receiver gives a nice linear response. After a certain point, approximately 1.3mV of input the active devices go into saturation (cut-off) and compress gain. Output Amplitude vs. Input Amplitude - Linearizing to Find the 1-dB Compression Point From 1μV to 1.3mV the receiver maintains a nice linear response. Beyond about 1.3mV of input, the active devices start to saturate (cut-off) and gain is compressed
 ---
+
 ### System Selectivity and Interference Rejection (FDM Analysis) 
 
 In a more realistic wireless environment, the desired RF signal is always present along with many out-of-band jammers. An FDM scenario was obtained to evaluate how often frequency selectivity appeared at the receiver end and how resistant it was with respect to this interference.
