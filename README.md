@@ -185,6 +185,7 @@ Cascode Common Source with **Inductive Source Degeneration**
 <p align="center">
 <img width="901" height="546" alt="Image" src="https://github.com/user-attachments/assets/b6d22c19-85ab-4512-a38f-1cb94d1919a3" />
 </p>
+
 ### DC Analysis
 
 <p align="center">
