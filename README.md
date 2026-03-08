@@ -6,13 +6,17 @@ RF Receiver Front-End Design for ISM Band Wireless Communication
 
 ---
 <p align="center">
+	
 ## 👨‍💻 Authors
-
+</p>
+<p align="center">
+	
 - **Azad Hossain Saykat** – 021221017  
 - **Sazzad Hossen** – 021221026  
 - **Suvom Karmakar** – 021221027  
 - **Md. Tahman Hossain** – 021221099  
 </p>
+
 <p align="center">
 <img width="258" height="234" alt="Image" src="https://github.com/user-attachments/assets/ed3bcb05-66a4-4548-b233-5ff860243f1a" />>
 </p>
